@@ -4,7 +4,7 @@
 [![ISO Release](https://img.shields.io/badge/ISO-Beta_Released-success)](https://berserkarch.xyz)
 [![Mirror Status](https://img.shields.io/badge/mirrors-signed-green)](https://wiki.berserkarch.xyz/mirrors)
 [![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/BerserkArch?style=social)](https://reddit.com/r/BerserkArch)
-[![Docs](https://img.shields.io/badge/Readthedocs-%23000000.svg?style=for-the-badge&logo=readthedocs&logoColor=white)](https://wiki.berserkarch.xyz/)
+[![Docs](https://img.shields.io/badge/Readthedocs-%23000000.svg&logo=readthedocs&logoColor=white)](https://wiki.berserkarch.xyz/)
 
 **Berserk Arch** is a security-focused, performance-tuned Arch Linux-based operating system tailored for developers, hackers, and technical users. It offers a modular environment with pre-configured desktop profiles, secure package infrastructure, and curated toolsets — all designed with flexibility, clarity, and control in mind.
 
