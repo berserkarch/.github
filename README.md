@@ -1,6 +1,6 @@
 # 🩸 Berserk Arch
 
-**Berserk Arch** is a high-performance, security-focused Linux distribution based on Arch Linux — built for hackers, red teamers, developers, power users, and digital warriors who want absolute control over their system and tools.
+**Berserk Arch** is a high-performance, security-focused Linux distribution based on Arch Linux — built for hackers, red teamers, developers, power users, and the nerds who want absolute control over their system and tools.
 
 Minimal by default, modular by design, and unapologetically made to be broken, rebuilt, and mastered.
 
