@@ -1,6 +1,6 @@
 # 🩸 Berserk Arch
 
-[![Berserk Arch](https://img.shields.io/badge/Berserk%20Arch-242424?style=for-the-badge&logo=https://raw.githubusercontent.com/berserkarch/berserkarch-assets/refs/heads/main/images/dr-logo-w.svg&logoColor=white)](https://berserkarch.xyz/)
+[![Berserk Arch](https://img.shields.io/badge/Berserk%20Arch-282a36?style=for-the-badge&logo=arch-linux&logoColor=red)](https://berserkarch.xyz)
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 [![ISO Release](https://img.shields.io/badge/ISO-Beta_Released-success)](https://berserkarch.xyz)
 [![Mirror Status](https://img.shields.io/badge/mirrors-signed-green)](https://wiki.berserkarch.xyz/mirrors)
