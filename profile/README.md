@@ -25,7 +25,7 @@ Berserk Arch is built as a modular, GitOps-style ecosystem:
 
 ### 📚 Read the Docs
 
-- Installation Guide, Post-Install Setup, Configs: [wiki.berserkarch.xyz](https://berserkarch.org/docs)
+- Installation Guide, Post-Install Setup, Configs: [berserkarch.org/docs](https://berserkarch.org/docs)
 - Bug reports, feedback, feature requests:
   - GitLab issues or
   - Subreddit thread: [r/BerserkArch](https://reddit.com/r/BerserkArch)
