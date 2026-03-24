@@ -50,8 +50,8 @@ Berserk Arch is built as a modular, GitOps-style ecosystem:
 
 ## 🌐 Links
 
-- 🔗 Website: [https://berserkarch.xyz](https://berserkarch.org)
-- 📖 Wiki: [https://wiki.berserkarch.xyz](https://berserkarch.org/docs)
+- 🔗 Website: [https://berserkarch.org](https://berserkarch.org)
+- 📖 Wiki: [https://wiki.berserkarch.org](https://berserkarch.org/docs)
 - 🗨️ Subreddit: [https://reddit.com/r/BerserkArch](https://reddit.com/r/BerserkArch)
 - 📦 Mirrors: Signed `berserk-core`, `berserk-aur`, `berserk-extra` (see wiki for usage)
 - 🧑‍💻 GitLab Group: [https://gitlab.com/berserkarch](https://gitlab.com/berserkarch)
