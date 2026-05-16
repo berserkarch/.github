@@ -1,6 +1,6 @@
 # 🩸 Berserk Arch
 
-[![Berserk Arch](https://img.shields.io/badge/Berserk%20Arch-282a36?style=for-the-badge&logo=arch-linux&logoColor=red)](https://berserkarch.org)
+[![Berserk Arch](https://img.shields.io/badge/Berserk%20Arch-282a36?style=for-the-badge&logo=arch-linux&logoColor=blue)](https://berserkarch.org)
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 [![ISO Release](https://img.shields.io/badge/ISO-Beta_Released-success)](https://berserkarch.org)
 [![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/BerserkArch?style=social)](https://reddit.com/r/BerserkArch)
