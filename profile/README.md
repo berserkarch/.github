@@ -83,7 +83,7 @@ Always verify with `.sig` or `sha256sum` before flashing.
 
 ## 📚 Documentation
 
-Everything lives at **[wiki.berserkarch.org](https://wiki.berserkarch.org)**:
+Everything lives at *[wiki.berserkarch.org](https://wiki.berserkarch.org)*:
 
 - [Installing the System](https://wiki.berserkarch.org/installation/install/)
 - [berserk Tool Manager](https://github.com/thehackersbrain/berserk)
@@ -104,7 +104,7 @@ Everything lives at **[wiki.berserkarch.org](https://wiki.berserkarch.org)**:
 
 ## 🌐 Links
 
-|Source|Links|
+| | |
 |-|-|
 | 🔗 Website | [berserkarch.org](https://berserkarch.org) |
 | 📖 Wiki | [wiki.berserkarch.org](https://wiki.berserkarch.org) |
