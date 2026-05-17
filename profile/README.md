@@ -104,7 +104,7 @@ Everything lives at **[wiki.berserkarch.org](https://wiki.berserkarch.org)**:
 
 ## 🌐 Links
 
-| | |
+|Source|Links|
 |-|-|
 | 🔗 Website | [berserkarch.org](https://berserkarch.org) |
 | 📖 Wiki | [wiki.berserkarch.org](https://wiki.berserkarch.org) |
