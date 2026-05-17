@@ -2,63 +2,120 @@
 
 [![Berserk Arch](https://img.shields.io/badge/Berserk%20Arch-282a36?style=for-the-badge&logo=arch-linux&logoColor=blue)](https://berserkarch.org)
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![ISO Release](https://img.shields.io/badge/ISO-Beta_Released-success)](https://berserkarch.org)
+[![ISO Release](https://img.shields.io/badge/ISO-Beta_Released-success)](https://berserkarch.org/download)
 [![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/BerserkArch?style=social)](https://reddit.com/r/BerserkArch)
 
-**Berserk Arch** is a security-focused, performance-tuned Arch Linux-based operating system tailored for developers, hackers, and technical users. It offers a modular environment with pre-configured desktop profiles, secure package infrastructure, and curated toolsets — all designed with flexibility, clarity, and control in mind.
+**Berserk Arch** is a bleeding-edge, security-focused, performance-tuned Arch Linux-based operating system crafted for hackers, developers, and technical users. It ships a modular desktop environment selection, a curated offensive security tool manager (`berserk`), signed package infrastructure, and a minimal-by-design base — giving you full control from the first boot.
+
+> ⚠️ **This is not a beginner-friendly distro.** You are expected to know your way around Linux.
+
+<br/>
 
 ---
 
-## 🧩 Repository Structure
+## 🧩 What's Inside
 
-Berserk Arch is built as a modular, GitOps-style ecosystem:
+### 🖥️ Desktop Profiles
 
----
+Six pre-configured desktop environments — pick what fits your workflow:
 
-## 🛠️ How to Use
-
-### 🔥 Get the Beta ISO
-
-- Download from the [Official Site](https://berserkarch.org)
-- Verify using `.sig` or `sha256sum`
-- Boot the ISO → Calamares Installer → Get hacking
-
-### 📚 Read the Docs
-
-- Installation Guide, Post-Install Setup, Configs: [berserkarch.org/docs](https://berserkarch.org/docs)
-- Bug reports, feedback, feature requests:
-  - GitLab issues or
-  - Subreddit thread: [r/BerserkArch](https://reddit.com/r/BerserkArch)
-
-### 🔃 Contribute
-
-- Suggest tools for meta packages or join testing on the subreddit
-- Help document the distro and share use-cases, configs, and issues
+| Profile | Notes |
+|---------|-------|
+| **Hyprland** | Wayland-native, composited, fast |
+| **i3wm** | X11 tiling, battle-tested |
+| **Openbox** | Lightweight floating WM |
+| **XFCE4** | Solid GTK desktop, recommended default |
+| **GNOME** | Full GNOME shell |
+| **KDE Plasma** | Full KDE stack |
 
 ---
 
-## 🚀 Roadmap (Post-Beta)
+### 🛠️ `berserk` — Offensive Security Tool Manager
 
-- 📦 Package Meta Groups
-- 🐳 Official Docker Image (base setup for CI/CD workflows)
-- 🧬 Auto-updating OTA ISO and pacman repos
-- 🤖 Full CI/CD pipeline for package builds, repo syncs, mirror updates
-- 🖼 Additional DE profiles (GNOME planned, KDE not supported by choice)
-- 💡 More security/hacking tools with configs ready-to-go out of the box
+The flagship tool. `berserk` manages your entire hacking toolkit from a single command — always pulling from original sources, always latest:
+
+- **Multi-backend**: installs via `go`, `cargo`, `pipx`, `npm`, `gem`, `pacman`, and GitHub releases
+- **Profiles**: install entire toolkits by use case (OSCP loadout, AD attacks, web, recon, post-exploitation...)
+- **Categories**: fine-grained tagging for targeted installs
+- **Docker catalog**: run pre-configured containers (Kali CLI, Tor Browser, etc.) without managing image names
+- **Extensible**: the full YAML catalog is yours to fork, extend, and customize
+
+```sh
+berserk doctor                        # verify all backends
+berserk sync                          # pull latest catalog
+berserk list -p                       # list all profiles
+berserk install --profile ad-attacks  # install a full profile
+berserk install nuclei naabu          # install specific tools
+berserk search bloodhound             # search the catalog
+berserk run kali-cli                  # run a Docker container
+berserk update                        # update everything
+```
+
+> `berserk` also installs standalone on **Kali**, **Parrot**, and any **Arch-based** system.  
+> See: [`thehackersbrain/berserk`](https://github.com/thehackersbrain/berserk)
+
+### 📦 Package Mirrors
+
+Three signed repos on top of the full Arch ecosystem:
+
+- `berserkarch-core` — core distro packages
+- `berserkarch-aur` — curated AUR packages, pre-built
+- `berserkarch-extra` — extended tooling and utilities
+
+Full mirror setup: [wiki.berserkarch.org](https://wiki.berserkarch.org)
+
+---
+
+## 🚀 Get Started
+
+### 1. Download the ISO
+
+| Mirror | Link |
+|--------|------|
+| 🔗 Direct | [berserkarch.org/download](https://berserkarch.org/download) |
+| 📦 SourceForge | [sourceforge.net/projects/berserkarch](https://sourceforge.net/projects/berserkarch/files/) |
+| ☁️ Google Drive | [Drive folder](https://drive.google.com/drive/folders/14sOpnU4iMUeivxWvj9rvctVFgGUbXiAq) |
+| 🌊 Torrent | [berserkarch.org/torrent](https://berserkarch.org/torrent) |
+
+Always verify with `.sig` or `sha256sum` before flashing.
+
+---
+
+## 📚 Documentation
+
+Everything lives at **[wiki.berserkarch.org](https://wiki.berserkarch.org)**:
+
+- [Installing the System](https://wiki.berserkarch.org/installation/install/)
+- [berserk Tool Manager](https://github.com/thehackersbrain/berserk)
+- [Docker Containers](https://wiki.berserkarch.org/containers/docker/)
+- [Keyboard Shortcuts](https://wiki.berserkarch.org/keyboard-shortcuts/)
+- [Changelogs](https://wiki.berserkarch.org/changelogs/)
+
+---
+
+## 🤝 Contribute
+
+- **Tools**: add entries to the [berserk-repo](https://github.com/berserkarch/berserk-repo) catalog YAML — profiles, categories, installers, Docker containers
+- **Packages**: help test and maintain `berserkarch-core`, `berserkarch-aur`, `berserkarch-extra`
+- **Docs**: write guides, post configs, document use-cases on the wiki
+- **Bug reports**: [GitLab Issues](https://gitlab.com/berserkarch) or [r/BerserkArch](https://reddit.com/r/BerserkArch)
 
 ---
 
 ## 🌐 Links
 
-- 🔗 Website: [https://berserkarch.org](https://berserkarch.org)
-- 📖 Wiki: [https://berserkarch.org/docs](https://berserkarch.org/docs)
-- 🗨️ Subreddit: [https://reddit.com/r/BerserkArch](https://reddit.com/r/BerserkArch)
-- 📦 Mirrors: Signed `berserk-core`, `berserk-aur`, `berserk-extra` (see wiki for usage)
-- 🧑‍💻 GitLab Group: [https://gitlab.com/berserkarch](https://gitlab.com/berserkarch)
+| | |
+|-|-|
+| 🔗 Website | [berserkarch.org](https://berserkarch.org) |
+| 📖 Wiki | [wiki.berserkarch.org](https://wiki.berserkarch.org) |
+| 🗨️ Subreddit | [r/BerserkArch](https://reddit.com/r/BerserkArch) |
+| 🧑‍💻 GitLab | [gitlab.com/berserkarch](https://gitlab.com/berserkarch) |
+| 🐙 GitHub | [github.com/berserkarch](https://github.com/berserkarch) |
+| 🐦 X (Twitter) | [@thehackersbrain](https://x.com/thehackersbrain) |
 
 ---
 
 ## 🩸 Final Note
 
 Berserk Arch is not designed to be easy.  
-> **Built by a hacker, for hackers.**
+> **Built by hacker, for hackers.**
