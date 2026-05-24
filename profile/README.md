@@ -2,7 +2,8 @@
 
 [![Berserk Arch](https://img.shields.io/badge/Berserk%20Arch-282a36?style=for-the-badge&logo=arch-linux&logoColor=blue)](https://berserkarch.org)
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![ISO Release](https://img.shields.io/badge/ISO-Beta_Released-success)](https://berserkarch.org/download)
+[![ISO Release](https://img.shields.io/badge/ISO-Stable_Release-success)](https://berserkarch.org/download)
+[![Downloads (SourceForge)](https://img.shields.io/sourceforge/dt/berserkarch.svg)](https://sourceforge.net/projects/berserkarch/files/latest/download)
 [![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/BerserkArch?style=social)](https://reddit.com/r/BerserkArch)
 
 **Berserk Arch** is a bleeding-edge, security-focused, performance-tuned Arch Linux-based operating system crafted for hackers, developers, and technical users. It ships a modular desktop environment selection, a curated offensive security tool manager (`berserk`), signed package infrastructure, and a minimal-by-design base — giving you full control from the first boot.
