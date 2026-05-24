@@ -10,7 +10,11 @@
 
 > ⚠️ **This is not a beginner-friendly distro.** You are expected to know your way around Linux.
 
-<br/>
+---
+
+## SourceForge
+
+<img src="https://sourceforge.net/cdn/syndication/badge_img/3928536/oss-users-love-us-white?&r=https://sourceforge.net/p/berserkarch/admin/files-sf/badges" width="125" /><img src="https://sourceforge.net/cdn/syndication/badge_img/3928536/oss-rising-star-white?achievement=oss-rising-star&r=https://sourceforge.net/p/berserkarch/admin/files-sf/badges" width="125" />
 
 ---
 
