@@ -26,6 +26,7 @@ Six pre-configured desktop environments — pick what fits your workflow:
 
 | Profile | Notes |
 |---------|-------|
+| **DWM** | X11 tiling WM |
 | **Hyprland** | Wayland-native, composited, fast |
 | **i3wm** | X11 tiling, battle-tested |
 | **Openbox** | Lightweight floating WM |
